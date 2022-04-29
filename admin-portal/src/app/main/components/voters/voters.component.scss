@@ -1,0 +1,62 @@
+h1{
+    margin: 0;
+}
+.overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.title{
+    font-size: 1.5rem;
+}
+.icon{
+    height: 1.5rem;
+}
+.line{
+min-width: 10rem;
+    width: 70vw;
+
+}
+.btn-refresh{
+    height: 1.5rem;
+    font-size: 1.5;
+}
+.icon,.title,.line{
+    padding-right: 1rem;
+}
+.container{
+    background:#009ABF;
+    height: 5rem;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.container-large{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-1,.div-1{
+    padding: .5rem;
+    
+   
+
+}
+.icon-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-person{
+    height: 3.2rem;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+}

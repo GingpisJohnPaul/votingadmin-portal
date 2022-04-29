@@ -1,0 +1,99 @@
+
+.navbar{
+    margin-top: 5%;
+    background: #5084D1;    
+    justify-content:space-between;
+}
+h1{
+    margin: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+.print-btn{
+    background: #366AB8;
+    color: #ffffff;
+}
+.result-list{
+    height: 4rem;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    }
+span{
+    color: #19E245;
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+.candidate-h1{
+    color: #000000;
+    padding-right: 1rem;
+}
+.line{
+    min-width: 10rem;
+    width: 100vw;
+    background: #000000;
+    
+}
+.row{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon{
+    padding-right: 1rem;
+}
+.result-list:hover{
+    background: #cacaca12;
+}
+.card{
+    margin: 0 2rem;
+    border: #000000 solid .1rem;
+}
+
+
+
+.entity{
+    display: flex;
+    justify-content: space-between;
+    padding: 0  1rem 0 5rem  ;
+}
+.profile-img {
+    height: 4rem;
+    padding-right:.5rem;
+}
+
+.attributes{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1rem  1rem 0 .5+rem  ;
+}
+p{margin: 0;}
+.candidate{
+    display: flex;
+    align-items: start;
+}
+.first{
+    height: 1rem;
+   margin-left: 5rem;
+   max-width: 100%;
+    border: solid .1rem #e4e4e4;
+    border-radius: .3rem;
+}
+.second{
+    height: 1rem;
+    width: 38%;
+    border-radius: .3rem;
+    background: #366AB8;
+}
+.progress-bar{
+    margin-right:6rem ;
+    margin-left: 1rem;
+    max-width: 100%;
+    position: relative;
+    bottom: 2.5rem;
+}

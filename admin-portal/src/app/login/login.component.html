@@ -1,0 +1,30 @@
+ 
+<body>
+  <img src="/assets/vote.svg">
+</body>
+
+<img class="gc" [src]="gc" alt="">
+<img class="gcvote" [src]="gcvote"alt="">
+
+<form>
+<!-- <form [formGroup]="form" (ngSubmit)="submit()"> -->
+  <p><b>Admin Portal</b></p>
+    
+    <mat-form-field color="accent" appearance="fill">
+      <mat-label>Username</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <mat-form-field color="accent" appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput>
+    </mat-form-field>
+<!-- 
+  <p *ngIf="error" class="error">
+    {{ error }}
+  </p> -->
+
+  <div class="button">
+    <button mat-raised-button type="submit" color="accent">LOGIN</button>
+  </div>
+</form>
+

@@ -1,0 +1,48 @@
+<mat-toolbar class="navbar">
+    <h1>RESULTS</h1>
+    <div class="btn-group">
+        <button mat-button class="print-btn"><mat-icon>print</mat-icon> Print Results</button>
+    </div>
+</mat-toolbar>
+
+<div class="result-list">
+    <div class="row"> <span>•</span> <h1 class="candidate-h1">President
+    </h1>
+    <mat-icon class="icon">expand_more</mat-icon></div>
+    
+  
+    <img class="line" [src]="line" alt="">
+    
+   <div class="row">
+    <button mat-button class="refresh-btn"><mat-icon>refresh</mat-icon>Refresh</button>
+    <button mat-button class="sort-btn"><mat-icon>sort</mat-icon>Sort</button>
+   </div>
+</div>
+
+<mat-card class="card">
+  <div class="entity">  
+    <p style="color:#000">Candidate Name</p>
+    <p style="color:#000">Partylist</p>
+    <p style="color:#000">No. of Voters</p>
+  </div>
+  <div class="attributes">
+   <div class="candidate">
+    <img class="profile-img" src="../../../../assets/simon.jpg" alt="" srcset="">
+    <p>President</p>
+  </div>
+    
+    <p style="padding-left: 1rem;">PRGC</p>
+    <div class="no-votes">
+      <p>99%</p>
+      <p>5000 Votes</p>
+    </div>
+   
+  </div>
+
+  <div class="progress-bar">
+    <div class="first">
+      <div class="second"></div>
+    </div>
+  </div>
+
+</mat-card>
