@@ -1,38 +1,154 @@
-<div class="overview">
-    <img class="icon" [src]="icon" alt="">
-    <h1 class="title">Overview</h1>
-        <img class="line" [src]="line" alt="">
-        <button class="btn-refresh" mat-raised-button>Refresh</button>
-</div>
-   
-<div class="container-large">
-    <div class="container">
-        <div class="icon-1">
-            <img class="icon-person" [src]="icon1" alt="">
-        </div>
-        <div class="div-1">
-            <h1>1,973</h1>
-            <p>TOTAL VOTERS</p>
-        </div>
+<mat-toolbar class="mat-elevation-z5">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>ONLINE VOTING SYSTEM</span>
+    <span class="example-spacer"></span>
+    <span>ADMIN</span> 
+    <button mat-button><mat-icon color="warn">exit_to_app</mat-icon></button>
+  </mat-toolbar>
+  <br>
+  <br>
+  
+  <!--Overview-->
+  <div class="overView">
+    <mat-icon>leaderboard</mat-icon>
+    <span class="textOverview">Overview</span>
+    <span class="line"></span>
+    <!-- <hr width="50%" color="silver" size="4px" /> -->
+    <button mat-button class="refBut"><mat-icon>refresh</mat-icon>Refresh</button>
+  </div>
+  
+  <!--CARDS-->
+  <div class="allCards" >
+    <div class="cardView1"> <!--blue-->
+      <mat-card>
+        <mat-card-content>
+          <!-- <mat-card-title style="font-size: 50px; display: grid; justify-items: end; color: #FFFF;">1,973</mat-card-title>  -->
+         <div class="icon">
+            <mat-icon>group</mat-icon>
+         </div>
+          <div class="text">
+            <span>1,973</span>
+            <mat-card-subtitle>TOTAL VOTERS</mat-card-subtitle>
+          </div>
+        </mat-card-content>
+      </mat-card>
     </div>
-    <div style="background: #2DA71F;"class="container">
-        <div class="icon-1">
-            <img class="icon-person" [src]="icon1" alt="">
-        </div>
-        <div class="div-1">
-            <h1>1,245</h1>
-            <p>VOTED</p>
-        </div>
+    <div class="cardView1"> <!--green-->
+      <mat-card style="background-color: #38D127;">
+        <mat-card-content>
+          <div class="icon">
+            <mat-icon>group</mat-icon>
+         </div>
+          <!-- <mat-card-title style="font-size: 50px; display: grid; justify-items: end; color: #FFFF;">1,245</mat-card-title> -->
+          <div class="text">
+            <span>1,245</span>
+            <mat-card-subtitle>VOTED</mat-card-subtitle>
+          </div>
+        </mat-card-content>
+      </mat-card>
     </div>
-    <div style="background: #B92726;" class="container">
-        <div class="icon-1">
-            <img class="icon-person" [src]="icon1" alt="">
-        </div>
-        <div class="div-1">
-            <h1>728</h1>
-            <p>HAVEN'T VOTED</p>
-        </div>
+    <div class="cardView1"> <!--red-->
+      <mat-card style="background-color: #E93030;"> 
+        <mat-card-content>
+          <div class="icon">
+            <mat-icon>group</mat-icon>
+          </div>
+          <!-- <mat-card-title style="font-size: 50px; display: grid; justify-items: end; color: #FFFF;">728</mat-card-title> -->
+          <div class="text">
+            <span>728</span>
+            <mat-card-subtitle>HAVEN'T VOTED</mat-card-subtitle>
+          </div>
+        </mat-card-content>
+      </mat-card>
     </div>
-            
-</div>
-
+  </div>
+  
+  <!-- Voters Search Bar-->
+  <br>
+  <br>
+  
+  <div class="votersBar">
+    <div class="votersValue">
+      <span>VOTERS</span>
+      <span class="example-spacer1"> (1,245)</span>
+    </div>
+    <br>
+    <div class="votersPrint">
+      <button mat-button class="printBut"><mat-icon>print</mat-icon>Print Voters</button>
+    </div>
+    <br>
+    <div class="searchBar">
+      <mat-icon>search</mat-icon>
+      <span class="example-spacer2">Search</span>
+      <input class="searchForm" type="search">
+    </div>
+  </div>
+  
+  <!--Table-->
+  <br>
+  <br>
+  <div class="studentTable">
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Student Number</th>
+        <th>Email Address</th>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+      <tr>
+        <td>Juan Gordon</td>
+        <td>12345</td>
+        <td>202212345@gordoncollege.edu.ph</td>
+      </tr>
+    </table>
+  </div>
+  
+  
+  
+  <router-outlet></router-outlet>
