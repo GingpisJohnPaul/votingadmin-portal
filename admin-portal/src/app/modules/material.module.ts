@@ -29,6 +29,7 @@ const MatModules = [
 @NgModule({
   declarations: [],
   imports: [ MatModules ],
-  exports: [ MatModules ], schemas:[CUSTOM_ELEMENTS_SCHEMA]
+  exports: [ MatModules ], 
+  schemas:[CUSTOM_ELEMENTS_SCHEMA],
 })
 export class MaterialModules { }
